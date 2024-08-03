@@ -5,6 +5,7 @@ import {
   Drawer,
   IconButton,
   MenuItem,
+  Switch,
   Toolbar,
   Typography
 } from '@mui/material'
@@ -13,8 +14,15 @@ import { Link, NavLink } from 'react-router-dom'
 import { useState } from 'react'
 import { NavListDrawer } from '../components/NavListDrawer'
 
-export const Navbar = () => {
+export const Navbar = ({ mode, setMode }) => {
   const [open, setOpen] = useState(false)
+  const changeMode = () => {
+    if (mode) {
+      setMode(false)
+    } else {
+      setMode(true)
+    }
+  }
   return (
     <AppBar
       sx={{
@@ -93,6 +101,13 @@ export const Navbar = () => {
               <Typography variant='body2' color='text.primary'>
                 <Link to='/contactos'>Contactos </Link>
               </Typography>
+            </MenuItem>
+            <MenuItem>
+              <Switch
+                checked={mode}
+                onChange={changeMode}
+                inputProps={{ 'aria-label': 'controlled' }}
+              />
             </MenuItem>
           </Box>
         </Toolbar>
