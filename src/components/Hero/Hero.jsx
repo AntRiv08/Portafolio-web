@@ -7,14 +7,7 @@ export const Hero = () => {
         <h2>Programador Backend</h2>
         <p>
           Soy un programador backend apasionado por crear soluciones robustas y
-          escalables. Me especializo en el desarrollo y mantenimiento de
-          aplicaciones server-side, optimizando bases de datos y garantizando la
-          eficiencia y seguridad de los sistemas. Mi enfoque se centra en
-          ofrecer un código limpio y eficiente, asegurando que las aplicaciones
-          puedan manejar grandes volúmenes de datos y tráfico con facilidad.
-          Trabajo con tecnologías como C#, PHP con Laravel, entre otras, para
-          construir infraestructuras sólidas que soporten experiencias digitales
-          excepcionales.
+          escalables con tecnologías como C#, PHP con Laravel, entre otras.
         </p>
       </div>
       <div className='hero-img'>
