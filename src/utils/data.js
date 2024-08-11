@@ -4,7 +4,7 @@ export const SKILLS = [
     icon: './assets/NETcore.png',
     skills: [
       {
-        description: 'APIs RESTful,MVC,Helpers, Middleware',
+        description: 'APIs RESTful,MVC,Helpers,Middleware,JWT',
         porcentage: '70%'
       }
     ]
@@ -14,7 +14,7 @@ export const SKILLS = [
     icon: './assets/Laravel.png',
     skills: [
       {
-        description: 'Apis RESTful,MVC,Helpers,Middleware, test',
+        description: 'Apis RESTful,MVC,Helpers,Middleware,Test',
         porcentage: '50%'
       }
     ]
@@ -25,7 +25,7 @@ export const SKILLS = [
     icon: './assets/MySQL.png',
     skills: [
       {
-        description: 'SQLServer y Mysql: triggers, store procedures, consultas',
+        description: 'SQLServer y Mysql:Triggers,Store procedures,Consultas',
         porcentage: '80%'
       }
     ]

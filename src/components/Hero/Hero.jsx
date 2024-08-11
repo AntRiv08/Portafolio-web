@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className='hero-content'>
         <h2>Programador Backend</h2>
         <p>
-          Soy un programador backend apasionado por crear soluciones robustas y
+          Soy un programador backend, apasionado por crear soluciones robustas y
           escalables con tecnologías como C#, PHP con Laravel, entre otras.
         </p>
       </div>
