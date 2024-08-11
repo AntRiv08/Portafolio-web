@@ -10,6 +10,7 @@ export const SkillsInfoCard = ({ heading, skills }) => {
           <React.Fragment key={`skill_${index}`}>
             <div className='skill-info'>
               <p>{item.description}</p>
+              <p className='porcentage'>{item.porcentage}</p>
             </div>
             <div className='skill-progress-bg'>
               <div

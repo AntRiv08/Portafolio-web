@@ -4,9 +4,8 @@ export const SKILLS = [
     icon: './assets/NETcore.png',
     skills: [
       {
-        description:
-          'Con ASP.NET Core, he desarrollado APIs RESTful robustas y escalables, aprovechando su capacidad para manejar solicitudes HTTP de manera eficiente, con características como inyección de dependencias, middleware y soporte para múltiples formatos de datos.',
-        porcentage: '60%'
+        description: 'APIs RESTful,MVC,Helpers, Middleware',
+        porcentage: '70%'
       }
     ]
   },
@@ -15,9 +14,29 @@ export const SKILLS = [
     icon: './assets/Laravel.png',
     skills: [
       {
-        description:
-          'Lo he utilizado para desarrollar aplicaciones web estructuradas, manteniendo una clara separación de lógica, presentación y datos, lo que facilita la escalabilidad y el mantenimiento del código',
-        porcentage: '60%'
+        description: 'Apis RESTful,MVC,Helpers,Middleware, test',
+        porcentage: '50%'
+      }
+    ]
+  },
+
+  {
+    title: 'SQL',
+    icon: './assets/MySQL.png',
+    skills: [
+      {
+        description: 'SQLServer y Mysql: triggers, store procedures, consultas',
+        porcentage: '80%'
+      }
+    ]
+  },
+  {
+    title: 'Git',
+    icon: './assets/Git.png',
+    skills: [
+      {
+        description: 'Manejo de versiones',
+        porcentage: '80%'
       }
     ]
   },
@@ -26,20 +45,18 @@ export const SKILLS = [
     icon: './assets/Angular.png',
     skills: [
       {
-        description:
-          'Angular es un framework de desarrollo web de alto rendimiento basado en TypeScript, que he utilizado para construir aplicaciones web robustas, escalables y mantenibles, aprovechando su arquitectura modular y enfoque en la reactividad.',
+        description: 'Páginas SPA',
         porcentage: '60%'
       }
     ]
   },
   {
-    title: 'SQL',
-    icon: './assets/MySQL.png',
+    title: 'React',
+    icon: './assets/React.png',
     skills: [
       {
-        description:
-          'SQL es un lenguaje de consulta estructurado que utilizo para diseñar, gestionar y optimizar bases de datos relacionales, permitiendo realizar operaciones complejas de manipulación y extracción de datos de manera eficiente y segura. Entre los motores que utilizo son SQL Server y Mysql.',
-        porcentage: '80%'
+        description: 'Uso basico de hooks',
+        porcentage: '30%'
       }
     ]
   }
