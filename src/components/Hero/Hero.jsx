@@ -9,6 +9,9 @@ export const Hero = () => {
           Soy un programador backend, apasionado por crear soluciones robustas y
           escalables con tecnologías como C#, PHP con Laravel, entre otras.
         </p>
+        <a className='download-btn' href='./assets/downloads/Hojadevida.pdf' download='Hojadevida'>
+          Hoja de Vida
+        </a>
       </div>
       <div className='hero-img'>
         <div>
