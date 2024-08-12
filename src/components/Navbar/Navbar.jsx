@@ -19,9 +19,6 @@ export const Navbar = () => {
               <a className='menu-item'>Inicio</a>
             </li>
             <li>
-              <a className='menu-item'>Estudios</a>
-            </li>
-            <li>
               <a className='menu-item'>Conocimientos</a>
             </li>
             <li>

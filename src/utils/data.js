@@ -4,7 +4,7 @@ export const SKILLS = [
     icon: './assets/NETcore.png',
     skills: [
       {
-        description: 'APIs RESTful,MVC,Helpers,Middleware,JWT',
+        description: 'APIs RESTful,MVC,Helpers,Middleware,JWT,ORM',
         porcentage: '70%'
       }
     ]
@@ -14,7 +14,7 @@ export const SKILLS = [
     icon: './assets/Laravel.png',
     skills: [
       {
-        description: 'Apis RESTful,MVC,Helpers,Middleware,Test',
+        description: 'APIs RESTful,MVC,Helpers,Middleware,Test',
         porcentage: '50%'
       }
     ]
