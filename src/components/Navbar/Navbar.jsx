@@ -7,6 +7,19 @@ export const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu)
   }
+  const scrollToSection = (sectionId) => {
+    const sectionElement = document.getElementById(sectionId)
+    const offset = 128
+    if (sectionElement) {
+      const targetScroll = sectionElement.offsetTop - offset
+      sectionElement.scrollIntoView({ behavior: 'smooth' })
+      window.scrollTo({
+        top: targetScroll,
+        behavior: 'smooth'
+      })
+      setOpenMenu(false)
+    }
+  }
   return (
     <>
       <NavbarMovile isOpen={openMenu} toggleMenu={toggleMenu} />
@@ -16,15 +29,25 @@ export const Navbar = () => {
           <span className='nav-name'>Antonio Rivera</span>
           <ul>
             <li>
-              <a className='menu-item'>Inicio</a>
+              <a className='menu-item' onClick={() => scrollToSection('hero')}>
+                Inicio
+              </a>
             </li>
             <li>
-              <a className='menu-item'>Conocimientos</a>
+              <a
+                className='menu-item'
+                onClick={() => scrollToSection('skills')}
+              >
+                Conocimientos
+              </a>
             </li>
             <li>
               <a className='menu-item'>Proyectos</a>
             </li>
-            <button className='contact-btn' onClick={() => {}}>
+            <button
+              className='contact-btn'
+              onClick={() => scrollToSection('contact')}
+            >
               Contactame
             </button>
           </ul>

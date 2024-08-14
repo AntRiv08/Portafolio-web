@@ -4,7 +4,7 @@ import './ContactMe.css'
 
 export const ContactMe = () => {
   return (
-    <section className='contact-container'>
+    <section className='contact-container' id='contact'>
       <h5>Contactos</h5>
       <div className='contact-content'>
         <div style={{ flex: 1 }}>
