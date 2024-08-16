@@ -1,7 +1,7 @@
 export const SKILLS = [
   {
     title: '.Net Core',
-    icon: './assets/NETcore.png',
+    icon: './assets/netcore.png',
     skills: [
       {
         description: 'APIs RESTful,MVC,Helpers,Middleware,JWT,ORM',
@@ -22,7 +22,7 @@ export const SKILLS = [
 
   {
     title: 'SQL',
-    icon: './assets/MySQL.png',
+    icon: './assets/mysql.png',
     skills: [
       {
         description: 'SQLServer y Mysql:Triggers,Store procedures,Consultas',
@@ -32,7 +32,7 @@ export const SKILLS = [
   },
   {
     title: 'Git',
-    icon: './assets/Git.png',
+    icon: './assets/git.png',
     skills: [
       {
         description: 'Manejo de versiones',
@@ -42,7 +42,7 @@ export const SKILLS = [
   },
   {
     title: 'Angular',
-    icon: './assets/Angular.png',
+    icon: './assets/angular.png',
     skills: [
       {
         description: 'Páginas SPA',
@@ -52,7 +52,7 @@ export const SKILLS = [
   },
   {
     title: 'React',
-    icon: './assets/React.png',
+    icon: './assets/react.png',
     skills: [
       {
         description: 'Uso basico de hooks',

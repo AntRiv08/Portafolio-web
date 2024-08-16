@@ -20,19 +20,19 @@ export const Hero = () => {
       <div className='hero-img'>
         <div>
           <div className='tech-icon'>
-            <img src='./assets/NETcore.png' alt='' />
+            <img src='./assets/vscode.png' alt='' />
           </div>
           <img src='./assets/img/background.jpg' alt='' />
         </div>
         <div>
           <div className='tech-icon'>
-            <img src='assets/CSharp.png' alt='' />
+            <img src='assets/html.png' alt='' />
           </div>
           <div className='tech-icon'>
-            <img src='assets/Laravel.png' alt='' />
+            <img src='assets/css3.png' alt='' />
           </div>
           <div className='tech-icon'>
-            <img src='assets/PHP.png' alt='' />
+            <img src='assets/javascript.png' alt='' />
           </div>
         </div>
       </div>

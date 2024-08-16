@@ -41,9 +41,9 @@ export const Navbar = () => {
                 Conocimientos
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className='menu-item'>Proyectos</a>
-            </li>
+            </li> */}
             <button
               className='contact-btn'
               onClick={() => scrollToSection('contact')}

@@ -35,14 +35,14 @@ export const NavbarMovile = ({ isOpen, toggleMenu }) => {
                 Conocimientos
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className='menu-item'
                 onClick={() => scrollToSection('inicio')}
               >
                 Proyectos
               </a>
-            </li>
+            </li> */}
             <button
               className='contact-btn'
               onClick={() => scrollToSection('contact')}

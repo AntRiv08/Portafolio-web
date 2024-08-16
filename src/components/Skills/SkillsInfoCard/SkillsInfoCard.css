@@ -1,5 +1,5 @@
 .skills-info-card {
-  min-height: 23rem;
+  min-height: 15.9rem;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   background: rgba(22, 17, 47, 0.398);
@@ -18,7 +18,7 @@
 }
 
 .skills-info-content {
-  padding: 2rem;
+  padding: 4.8rem 2rem;
 }
 .skill-info {
   display: flex;
@@ -51,25 +51,32 @@
   transition: all 0.5s ease-in-out;
 }
 @media (max-width: 1025px) {
+  .skills-info-card{
+    min-height: 13.2rem;
+  }
   .skills-info-card h6 {
     font-size: 1.1rem;
+    max-height: 10.9rem;
   }
   .skill-info p {
-    font-size: 0.9rem
+    font-size: 0.9rem;
   }
-  .skills-info-content{
-    padding: 1.5rem;
+  .skills-info-content {
+    padding: 2.5rem 1.5rem;
   }
 }
 
 @media (max-width: 460px) {
+  .skills-info-card {
+    min-height: 11.2rem;
+  }
   .skills-info-card h6 {
     font-size: 0.9rem;
   }
   .skill-info p {
-    font-size: 0.8rem
+    font-size: 0.8rem;
   }
-  .skills-info-content{
-    padding: 1.5rem;
+  .skills-info-content {
+    padding: 2rem 1.2rem;
   }
 }
