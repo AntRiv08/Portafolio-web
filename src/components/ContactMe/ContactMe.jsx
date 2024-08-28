@@ -9,11 +9,11 @@ export const ContactMe = () => {
       <div className='contact-content'>
         <div style={{ flex: 1 }}>
           <ContactInfoCard
-            iconUlr='./assets/mail.png'
+            iconUlr='./assets/mail.webp'
             text='antonioo.rivera24@hotmail.com'
           />
           <ContactInfoCard
-            iconUlr='./assets/linkedin.png'
+            iconUlr='./assets/linkedin.webp'
             text='linkedin.com/in/antonio-rivera-ibarra-1b93b6269'
           />
         </div>
