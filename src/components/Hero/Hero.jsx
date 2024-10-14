@@ -4,14 +4,14 @@ export const Hero = () => {
   return (
     <section className='hero-container' id='hero'>
       <div className='hero-content'>
-        <h2>Programador Backend</h2>
+        <h2>Desarrollador de Software</h2>
         <p>
-          Soy un programador backend, apasionado por crear soluciones robustas y
-          escalables con tecnologías como C#, PHP con Laravel, entre otras.
+          Soy un programador, apasionado por crear soluciones robustas y
+          escalables con tecnologías web modernas.
         </p>
         <a
           className='download-btn'
-          href='./assets/downloads/Hojadevida.pdf'
+          href='./assets/downloads/hoja-de-vida.pdf'
           download='Hojadevida'
         >
           Hoja de Vida

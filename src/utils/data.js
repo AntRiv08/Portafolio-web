@@ -1,6 +1,6 @@
 export const SKILLS = [
   {
-    title: '.Net Core',
+    title: '.Net',
     icon: './assets/netcore.webp',
     skills: [
       {
@@ -10,7 +10,7 @@ export const SKILLS = [
     ]
   },
   {
-    title: 'Php-Laravel',
+    title: 'Laravel',
     icon: './assets/laravel.webp',
     skills: [
       {
