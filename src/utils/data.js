@@ -31,11 +31,11 @@ export const SKILLS = [
     ]
   },
   {
-    title: 'Git',
+    title: 'Git-Github',
     icon: './assets/git.webp',
     skills: [
       {
-        description: 'Manejo de versiones',
+        description: 'Manejo de versiones y maneja de repositorios',
         porcentage: '80%'
       }
     ]
@@ -45,7 +45,8 @@ export const SKILLS = [
     icon: './assets/angular.webp',
     skills: [
       {
-        description: 'Páginas SPA',
+        description:
+          'Routing,guards,formularios reactivos,http client,componentes',
         porcentage: '60%'
       }
     ]
