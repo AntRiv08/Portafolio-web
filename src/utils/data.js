@@ -1,6 +1,6 @@
 export const SKILLS = [
   {
-    title: '.Net',
+    title: 'C#',
     icon: './assets/netcore.webp',
     skills: [
       {

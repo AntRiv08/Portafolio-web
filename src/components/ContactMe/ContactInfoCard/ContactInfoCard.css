@@ -31,3 +31,13 @@
   font-size: 0.9rem;
   font-weight: 400;
 }
+
+.contact-details-card a {
+  color: white; /* Change the link color to white */
+  text-decoration: none; /* Remove the underline */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.contact-details-card a:hover {
+  color: #cccccc; /* Change the color on hover (optional) */
+}

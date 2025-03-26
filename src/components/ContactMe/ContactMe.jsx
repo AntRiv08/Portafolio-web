@@ -10,11 +10,13 @@ export const ContactMe = () => {
         <div style={{ flex: 1 }}>
           <ContactInfoCard
             iconUlr='./assets/mail.webp'
-            text='antonioo.rivera24@hotmail.com'
+            text='👉 Enviame un correo'
+            link='mailto:antonioo.rivera24@hotmail.com'
           />
           <ContactInfoCard
             iconUlr='./assets/linkedin.webp'
-            text='linkedin.com/in/antonio-rivera-ibarra-1b93b6269'
+            text='👉 Mi LinkedIn'
+            link='https://www.linkedin.com/in/antonio-rivera-ibarra-1b93b6269'
           />
         </div>
         <div style={{ flex: 1 }}>
