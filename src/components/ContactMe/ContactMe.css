@@ -14,12 +14,21 @@
   gap: 3rem;
 }
 
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
 @media (max-width: 768px) {
-    .contact-content{
-        flex-direction: column-reverse;
-    }
-    .contact-container h5{
-         font-size: 1.3rem;
-         margin-bottom: 2rem;
-    }
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+  .contact-container h5 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+  }
 }
