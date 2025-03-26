@@ -11,8 +11,8 @@ export const Hero = () => {
         </p>
         <a
           className='download-btn'
-          href='./assets/downloads/hoja-de-vida.pdf'
-          download='Hojadevida'
+          href='./assets/downloads/hoja-de-vida-general.pdf'
+          download='Hoja de vida general'
         >
           Hoja de Vida
         </a>
