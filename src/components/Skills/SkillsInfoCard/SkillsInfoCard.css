@@ -54,6 +54,9 @@
   .skills-info-card{
     min-height: 13.2rem;
   }
+  .secundary {
+    padding-top: 2rem;
+  }
   .skills-info-card h6 {
     font-size: 1.1rem;
     max-height: 10.9rem;

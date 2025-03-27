@@ -62,3 +62,25 @@ export const SKILLS = [
     ]
   }
 ]
+export const SECONDARY_SKILLS = [
+  {
+    title: 'Git-Github',
+    icon: './assets/git.webp',
+    skills: [
+      {
+        description: 'Manejo de versiones y maneja de repositorios',
+        porcentage: '80%'
+      }
+    ]
+  },
+  {
+    title: 'Docker',
+    icon: './assets/git.webp',
+    skills: [
+      {
+        description: 'Creacion de contenedores',
+        porcentage: '60%'
+      }
+    ]
+  }
+]

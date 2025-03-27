@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import { SKILLS } from '../../utils/data'
+import { SKILLS, SECONDARY_SKILLS } from '../../utils/data'
 import { SkillCard } from './SkillCard/SkillCard'
+import { SkillSecondaryCard } from './SkillSecondaryCard/SkillSecondaryCard'
 import './Skills.css'
 import { SkillsInfoCard } from './SkillsInfoCard/SkillsInfoCard'
 
@@ -33,6 +34,19 @@ export const Skills = () => {
             heading={selectedSkill.title}
             skills={selectedSkill.skills}
           />
+          <div className='skills secundary'>
+            {SECONDARY_SKILLS.map((item) => (
+              <SkillSecondaryCard
+                key={item.title}
+                iconUrl={item.icon}
+                title={item.title}
+                isActive={selectedSkill.title === item.title}
+                onClick={() => {
+                  handleSelectSkill(item)
+                }}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>
