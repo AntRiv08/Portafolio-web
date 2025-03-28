@@ -1,7 +1,7 @@
 export const SKILLS = [
   {
     title: 'C#',
-    icon: './assets/netcore.webp',
+    icon: './assets/dotnetcore.webp',
     skills: [
       {
         description: 'APIs RESTful,MVC,Helpers,Middleware,JWT,ORM',
@@ -19,23 +19,23 @@ export const SKILLS = [
       }
     ]
   },
-
   {
-    title: 'SQL',
-    icon: './assets/mysql.webp',
+    title: 'NestJs',
+    icon: './assets/nestjs.webp',
     skills: [
       {
-        description: 'SQLServer y Mysql:Triggers,Store procedures,Consultas',
+        description:
+          'TypeORM,Guards,Interceptors,JWT y Reflesh Token,Middleware',
         porcentage: '80%'
       }
     ]
   },
   {
-    title: 'Git-Github',
-    icon: './assets/git.webp',
+    title: 'SQL',
+    icon: './assets/postgresql.webp',
     skills: [
       {
-        description: 'Manejo de versiones y maneja de repositorios',
+        description: 'SQLServer y Mysql:Triggers,Store procedures,Consultas',
         porcentage: '80%'
       }
     ]
@@ -75,11 +75,11 @@ export const SECONDARY_SKILLS = [
   },
   {
     title: 'Docker',
-    icon: './assets/git.webp',
+    icon: './assets/docker.webp',
     skills: [
       {
-        description: 'Creacion de contenedores',
-        porcentage: '60%'
+        description: 'Docker Compose,Containers,Images,Volumes,Networks',
+        porcentage: '70%'
       }
     ]
   }

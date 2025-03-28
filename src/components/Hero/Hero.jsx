@@ -26,7 +26,7 @@ export const Hero = () => {
         </div>
         <div>
           <div className='tech-icon'>
-            <img src='assets/html.webp' alt='' />
+            <img src='assets/html5.webp' alt='' />
           </div>
           <div className='tech-icon'>
             <img src='assets/css3.webp' alt='' />
